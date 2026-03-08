@@ -1,8 +1,6 @@
-const name = "Yarrrr";
-
 let messages = [
 
-"I'm Reallyyyyy proud of you " + name + ".",
+"I'm Reallyyyyy proud of you.",
 "You are doing great!!!!",
 "You deserve everything because?? you are a good person dude!!!",
 "You are a lovely woman 🤭💕",
@@ -225,4 +223,5 @@ window.onload = function(){
 createPetals();
 
 }
+
 
