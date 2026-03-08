@@ -2,12 +2,12 @@ const name = "Sharvi";
 
 let messages = [
 
-"I'm really proud of you " + name + ".",
-"You are doing great.",
-"You deserve everything because you are a good person.",
-"You are a lovely woman.",
-"You make the world brighter.",
-"Happy Women's Day 💜"
+"I'm Reallyyyyy proud of you " + name + ".",
+"You are doing great!!!!",
+"You deserve everything because?? you are a good person dude!!!",
+"You are a lovely woman 🤭💕",
+"You make the world brighter 🙌🤧",
+"Happy Women's Day💜"
 
 ];
 
