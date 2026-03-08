@@ -93,7 +93,7 @@ function celebrate(){
 let message = document.getElementById("finalMessage");
 
 if(message){
-message.innerHTML = "✨ Happy Women's Day " + " ✨";
+message.innerHTML = "✨ Happy Women's Day ✨";
 }
 
 for(let i=0;i<160;i++){
@@ -223,6 +223,7 @@ window.onload = function(){
 createPetals();
 
 }
+
 
 
 
