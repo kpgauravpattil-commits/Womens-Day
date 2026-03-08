@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Happy Women's Day</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <h1>Happy Women's Day 💜</h1>
 
 <p class="message">
-You are amazing, strong, and inspiring.
+You are amazing, strong, and inspiring.<br>
 Never forget how much you matter.
 </p>
 
@@ -22,14 +21,16 @@ The world is brighter because of you.
 
 <div id="confetti"></div>
 
-<img class="sticker s8" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVhYmFvazBxcHhtejR3ajBjczczc3BqODV2cmVvc3RraTJhOWszYyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wIUQQ07BHzDry/giphy.gif">
+<!-- Sticker -->
+<img class="sticker s8" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVhYmFvazBxcHhtejR3ajBjczczc3BqODV2cmVvc3RraTJhOWszYyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wIUQQ07BHzDry/giphy.gif" alt="cute sticker">
 
+<!-- JS -->
 <script src="script.js"></script>
-
 <script>
-celebrate();
+document.addEventListener("DOMContentLoaded", function() {
+    celebrate();  // fires celebration safely after DOM loads
+});
 </script>
-  
-</body>
 
+</body>
 </html>
