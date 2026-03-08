@@ -1,4 +1,4 @@
-const name = "Sharvi";
+const name = "Yarrrr";
 
 let messages = [
 
@@ -225,3 +225,4 @@ window.onload = function(){
 createPetals();
 
 }
+
