@@ -3,9 +3,9 @@ let messages = [
 "I'm Reallyyyyy proud of you.",
 "You are doing great!!!!",
 "You deserve everything because?? you are a good person dude!!!",
-"You are a lovely woman 🤭💕",
-"You make the world brighter 🙌🤧",
-"Happy Women's Day💜"
+"You are a lovely woman",
+"You make the world brighter ",
+"Happy Women's Day 💜"
 
 ];
 
@@ -141,41 +141,33 @@ function spawn(){
 let c = document.createElement("div");
 c.className = "confettiRain";
 
-/* random horizontal position */
 c.style.left = Math.random()*100 + "vw";
 
-/* start slightly above screen */
 c.style.top = (-500 + Math.random()*500) + "px";
 
-/* random size */
 let size = 4 + Math.random()*8;
 c.style.width = size + "px";
 c.style.height = size + "px";
 
-/* random color */
 c.style.backgroundColor =
 "hsl(" + Math.random()*360 + ",70%,60%)";
 
-/* sometimes circle */
 if(Math.random() > 0.9){
 c.style.borderRadius = "50%";
 }
 
 document.body.appendChild(c);
 
-/* when it finishes falling */
 c.addEventListener("animationend", function(){
 
 c.remove();
 
-/* spawn the next one (signal system) */
 spawn();
 
 });
 
 }
 
-/* start first confetti */
 spawn();
 
 }
