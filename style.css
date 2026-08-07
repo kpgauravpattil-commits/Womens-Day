@@ -13,22 +13,16 @@ justify-content:center;
 overflow-x:hidden;
 }
 
-/* TITLE */
-
 h1{
 color:#7a2b87;
 margin-bottom:10px;
 }
-
-/* SUBTITLE */
 
 .subtitle{
 font-size:20px;
 color:#555;
 margin-bottom:20px;
 }
-
-/* BUTTONS */
 
 button{
 padding:12px 25px;
@@ -47,8 +41,6 @@ transform:scale(1.05);
 box-shadow:0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* MESSAGE CARDS */
-
 .card{
 background:white;
 padding:20px;
@@ -58,8 +50,6 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
 width:300px;
 max-width:80%;
 }
-
-/* FALLING PETALS */
 
 .petal{
 position:fixed;
@@ -82,8 +72,6 @@ opacity:0.8;
 }
 
 }
-
-/* CONFETTI */
 
 .confetti{
 position:fixed;
